@@ -11,4 +11,4 @@ def run():
 
     eel.init('src/eelsystemd/web/dist')
     eel.echo('hello')
-    eel.start('index.html', size=(800, 600), port=8088)
+    eel.start('index.html', size=(1500, 931), port=8088)
