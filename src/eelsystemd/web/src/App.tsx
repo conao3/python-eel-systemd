@@ -3,7 +3,7 @@ import { defaultTheme, Flex, Provider, View } from "@adobe/react-spectrum"
 
 export function App() {
     return (
-        <Provider theme={defaultTheme}>
+        <Provider theme={defaultTheme} colorScheme="dark">
             <Flex direction="column" minHeight="100vh" alignItems="center">
                 <Flex direction="column" width="100%" maxWidth="1200px">
                     <h1>Hello world!</h1>
