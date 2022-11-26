@@ -1,5 +1,11 @@
 import eel
 
+
+@eel.expose
+def hello(msg: str):
+    print(f"Hello from Python.  {msg=}")
+
+
 def run():
     print('hello')
 
