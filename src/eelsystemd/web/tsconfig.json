@@ -1,5 +1,13 @@
 {
+    "include": [
+        "src/**/*"
+    ],
     "compilerOptions": {
-        "jsx": "react-jsx"
+        "skipLibCheck": true,
+        "lib": ["esnext", "dom"],
+        "jsx": "react-jsx",
+        "experimentalDecorators": true,
+        "jsxImportSource": "react",
+        "strict": true
     }
 }
