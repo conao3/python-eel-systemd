@@ -1,3 +1,4 @@
+import json
 import subprocess
 from typing import Any
 import eel
