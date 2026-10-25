@@ -1,11 +1,11 @@
 import "./style.css"
 import { Provider, defaultTheme, Flex, ToggleButton } from "@adobe/react-spectrum"
 import Moon from '@spectrum-icons/workflow/Moon'
-import React = require("react");
+import { useState } from "react";
 import { Main } from "./components/Main";
 
 export function App() {
-    let [isDark, setIsDark] = React.useState(true)
+    let [isDark, setIsDark] = useState(true)
     return (
         <Provider theme={defaultTheme} colorScheme={isDark ? "dark" : "light"}>
             <Flex direction="column" minHeight="100vh" alignItems="center">
