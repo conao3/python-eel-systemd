@@ -9,8 +9,8 @@ eelsystemd = "eelsystemd.main:run"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-Eel = "^0.15.0"
-jc = "^1.22.2"
+Eel = "^0.18.2"
+jc = "^1.26.1"
 
 [tool.poetry.dev-dependencies]
 
