@@ -15,7 +15,7 @@ eelsystemd provides a modern web-based interface for monitoring systemd services
 
 ## Requirements
 
-- Python 3.10 or higher
+- Python 3.11 or higher
 - Node.js and Yarn
 - Linux with systemd
 
@@ -70,12 +70,12 @@ eelsystemd/
 ## Tech Stack
 
 **Backend:**
-- Python 3.10+
+- Python 3.11+
 - Eel for Python/JavaScript bridge
 - jc for parsing systemctl output
 
 **Frontend:**
-- React 18
+- React 19
 - TypeScript
 - Adobe React Spectrum
 - Parcel bundler
